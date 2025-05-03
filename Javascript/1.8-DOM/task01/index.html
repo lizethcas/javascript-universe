@@ -1,42 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declara que el documento usa HTML5 y define el idioma como inglés -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres para admitir caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permite una visualización correcta en dispositivos móviles -->
 
-    <title>Conteo y extracción de textos</title>
+    <title>Conteo y extracción de textos</title> <!-- Define el título de la página que aparece en la pestaña del navegador -->
 </head>
 
 <body>
-    <p><a href="../index.html">Go back</a></p>
-    <ul id="task-list">
-        <li class="priority-group">
-            <h2>High Priority</h2>
-            <ul>
-                <li>Fix bug #123</li>
-                <li>Deploy to production</li>
+    <p><a href="../index.html">Go back</a></p> <!-- Enlace para regresar a una página anterior -->
+
+    <ul id="task-list"> <!-- Lista principal que contiene los grupos de tareas -->
+        
+        <li class="priority-group"> <!-- Primer grupo de prioridad -->
+            <h2>High Priority</h2> <!-- Título que indica prioridad alta -->
+            <ul> <!-- Lista de tareas de alta prioridad -->
+                <li>Fix bug #123</li> <!-- Primera tarea -->
+                <li>Deploy to production</li> <!-- Segunda tarea -->
             </ul>
         </li>
-        <li class="priority-group">
-            <h2>Medium Priority</h2>
-            <ul>
-                <li>Refactor user profile</li>
-                <li>Update documentation</li>
-                <li>Code review</li>
+
+        <li class="priority-group"> <!-- Segundo grupo de prioridad -->
+            <h2>Medium Priority</h2> <!-- Título que indica prioridad media -->
+            <ul> <!-- Lista de tareas de prioridad media -->
+                <li>Refactor user profile</li> <!-- Primera tarea -->
+                <li>Update documentation</li> <!-- Segunda tarea -->
+                <li>Code review</li> <!-- Tercera tarea -->
             </ul>
         </li>
-        <li class="priority-group">
-            <h2>Low Priority</h2>
-            <ul>
-                <li>Organize files</li>
+
+        <li class="priority-group"> <!-- Tercer grupo de prioridad -->
+            <h2>Low Priority</h2> <!-- Título que indica prioridad baja -->
+            <ul> <!-- Lista de tareas de baja prioridad -->
+                <li>Organize files</li> <!-- Única tarea en este grupo -->
             </ul>
         </li>
     </ul>
 
-     
-
-    <script type="module" src="task01.dom.js"></script>
+    <script type="module" src="task01.dom.js"></script> <!-- Script externo que manipula el DOM -->
 </body>
 
 </html>
